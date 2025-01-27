@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Time of Day Greeting</title>
+</head>
+<body>
+    <h1>Select a Time of Day</h1>
+    <form action="/submit" method="post">
+        <label for="time_of_day">Choose a time of day:</label>
+        <select name="time_of_day" id="time_of_day" required>
+            <option value="morning">Morning</option>
+            <option value="afternoon">Afternoon</option>
+            <option value="evening">Evening</option>
+            <option value="night">Night</option>
+        </select>
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
